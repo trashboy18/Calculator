@@ -11,4 +11,4 @@ class Average(Operator):
     def getPriority(self):
         return 5
     def operate(self,num1,num2):
-        return num1 if num1 < num2 else num2
+        return (num1+num2)/2

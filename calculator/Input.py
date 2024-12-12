@@ -3,9 +3,9 @@ from Calculate import calculate
 
 def main():
     print("Welcome to the ultimate calculator!\n")
-    expression = input("enter you mathematical expression here:\n")
-    expression = expression.replace(" ", "")
-    calculate(expression)
+    while True:
+        expression = input("enter you mathematical expression here:\n")
+        calculate(expression)
 
 if __name__ == "__main__":
     main()

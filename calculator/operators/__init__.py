@@ -9,3 +9,5 @@ from .Minimum import Minimum
 from .Average import Average
 from .Tilde import Tilde
 from .Factorial import Factorial
+from .UnaryMinus import UnaryMinus
+from .Hashtag import Hashtag

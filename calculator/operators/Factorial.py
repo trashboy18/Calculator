@@ -12,4 +12,7 @@ class Factorial(Operator):
     def getPriority(self):
         return 6
     def operate(self,num):
-        return
+        result = 1
+        for i in range(1,int(num)+1):
+            result*=i
+        return result
