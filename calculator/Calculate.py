@@ -23,12 +23,9 @@ def calculate(expression):
 
     try:
         tokens_arr = tokenize(expression, operators_dic)
-        print(tokens_arr)
         check_validity(tokens_arr,operators_dic)
         fixed_tokens = normalize_tokens(tokens_arr)
-        print(fixed_tokens)
         postfix = infix_to_postfix(fixed_tokens,operators_dic)
-        print(postfix)
 
         solution = evaluate_postfix(postfix,operators_dic)
         if (float(solution)).is_integer():
