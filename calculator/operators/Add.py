@@ -10,5 +10,6 @@ class Add(Operator):
 
     def getPriority(self):
         return 1
+
     def operate(self,num1,num2):
         return num1 + num2

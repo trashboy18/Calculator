@@ -12,7 +12,7 @@ class Operator(ABC):
     def getPriority(self):
         ...
     @abstractmethod
-    def operate(self):
+    def operate(self,*args):
         ...
 
 
